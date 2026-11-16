@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOHOL 2026 | 4인 가족 6박 7일 프리미엄 여행 가이드</title>
+<meta name="description" content="필리핀 보홀 4인 가족 6박 7일 여행: 최신 정보, 추천 리조트, 액티비티, 일정, 예상 경비, 광명-인천공항-보홀 이동 가이드">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0d2b33; --ink-2:#3c5a62; --muted:#6f8a90;
+  --sea:#0b7a83; --sea-d:#075a62; --sea-l:#e3f4f4;
+  --sand:#f7f1e6; --sand-d:#eadfc9; --coral:#e8735a; --gold:#c99a3c;
+  --card:#ffffff; --line:#e3e9ea; --shadow:0 10px 30px rgba(13,43,51,.10);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Noto Sans KR',system-ui,sans-serif;color:var(--ink);background:#fbfaf7;line-height:1.65;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:var(--sea);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.serif{font-family:'Noto Serif KR',serif}
+section{padding:96px 0}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.22em;font-weight:700;color:var(--sea);text-transform:uppercase;margin-bottom:14px}
+h2.title{font-family:'Noto Serif KR',serif;font-size:clamp(28px,4vw,42px);line-height:1.3;font-weight:900;margin-bottom:14px}
+p.lead{color:var(--ink-2);font-size:17px;max-width:760px}
+.head{margin-bottom:48px}
+
+/* NAV */
+nav.top{position:fixed;inset:0 0 auto 0;z-index:50;transition:.3s;padding:14px 0}
+nav.top.solid{background:rgba(255,255,255,.94);backdrop-filter:blur(10px);box-shadow:0 2px 20px rgba(0,0,0,.06)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-family:'Noto Serif KR',serif;font-weight:900;font-size:20px;color:#fff;letter-spacing:.04em;cursor:pointer}
+.brand small{display:block;font-family:'Noto Sans KR';font-weight:500;font-size:10px;letter-spacing:.3em;opacity:.8}
+nav.top.solid .brand{color:var(--ink)}
+.menu{display:flex;gap:4px;flex-wrap:wrap}
+.menu button{background:none;border:0;color:#fff;font:500 14px 'Noto Sans KR';padding:8px 12px;border-radius:999px;cursor:pointer;opacity:.92}
+.menu button:hover{background:rgba(255,255,255,.18)}
+nav.top.solid .menu button{color:var(--ink-2)}
+nav.top.solid .menu button:hover{background:var(--sea-l);color:var(--sea-d)}
+.burger{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer}
+nav.top.solid .burger{color:var(--ink)}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden;background:#0d2b33}
+.hero .slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.06);transition:opacity 1.6s ease,transform 7s ease}
+.hero .slide.on{opacity:1;transform:scale(1)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,30,36,.55) 0%,rgba(6,30,36,.15) 35%,rgba(6,30,36,.85) 100%)}
+.hero .inner{position:relative;z-index:2;padding:140px 0 70px;width:100%}
+.hero .tag{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);padding:6px 14px;border-radius:999px;font-size:13px;backdrop-filter:blur(6px)}
+.hero h1{font-family:'Noto Serif KR',serif;font-weight:900;font-size:clamp(36px,6.4vw,76px);line-height:1.15;margin:22px 0 18px;text-shadow:0 4px 30px rgba(0,0,0,.35)}
+.hero h1 em{font-style:normal;color:#9fe3e0}
+.hero p.sub{font-size:clamp(16px,2vw,20px);max-width:680px;opacity:.95}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:700;font-size:15px;border:0;cursor:pointer;transition:.2s}
+.btn.primary{background:var(--coral);color:#fff}
+.btn.primary:hover{background:#d65e45}
+.btn.ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.5)}
+.btn.ghost:hover{background:rgba(255,255,255,.24)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:56px;background:rgba(255,255,255,.22);border-radius:16px;overflow:hidden;backdrop-filter:blur(8px)}
+.facts div{background:rgba(6,30,36,.45);padding:18px 20px}
+.facts b{display:block;font-size:22px;font-family:'Noto Serif KR',serif}
+.facts span{font-size:13px;opacity:.85}
+.hero .caption{position:absolute;right:24px;bottom:16px;z-index:2;font-size:11px;opacity:.7}
+
+/* NEWS */
+.news{background:var(--sand)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.ncard{background:var(--card);border-radius:var(--r);padding:26px;box-shadow:var(--shadow);border-top:4px solid var(--sea);display:flex;flex-direction:column;gap:8px}
+.ncard .ico{font-size:28px}
+.ncard h3{font-size:18px;font-weight:700}
+.ncard p{color:var(--ink-2);font-size:15px}
+.ncard .src{margin-top:auto;font-size:12px;color:var(--muted)}
+.ncard.hl{border-top-color:var(--coral)}
+.ncard.gd{border-top-color:var(--gold)}
+.alert{margin-top:28px;background:#fff;border-left:5px solid var(--coral);padding:18px 22px;border-radius:12px;color:var(--ink-2);font-size:15px;box-shadow:var(--shadow)}
+
+/* GALLERY */
+.gallery{columns:4 260px;column-gap:14px}
+.gallery figure{break-inside:avoid;margin-bottom:14px;border-radius:14px;overflow:hidden;position:relative;cursor:zoom-in;background:linear-gradient(135deg,#0b7a83,#9fe3e0)}
+.gallery img{width:100%;transition:transform .6s}
+.gallery figure:hover img{transform:scale(1.05)}
+.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 14px 12px;color:#fff;font-size:14px;font-weight:500;background:linear-gradient(transparent,rgba(0,0,0,.7))}
+.broken{min-height:200px;display:flex;align-items:center;justify-content:center}
+.broken img{display:none}
+.lightbox{position:fixed;inset:0;background:rgba(5,20,24,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:24px}
+.lightbox.on{display:flex}
+.lightbox img{max-height:80vh;max-width:92vw;border-radius:10px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.lightbox .lb-cap{color:#fff;margin-top:14px;text-align:center;font-size:15px}
+.lightbox .lb-cap small{display:block;opacity:.6;font-size:12px}
+.lightbox button{position:absolute;background:rgba(255,255,255,.12);border:0;color:#fff;font-size:28px;width:52px;height:52px;border-radius:50%;cursor:pointer}
+.lb-x{top:20px;right:20px}.lb-p{left:20px;top:50%}.lb-n{right:20px;top:50%}
+
+/* VIDEO */
+.video{background:var(--ink);color:#fff}
+.video .eyebrow{color:#9fe3e0}
+.video p.lead{color:#c5d6d8}
+.vgrid{display:grid;grid-template-columns:2fr 1fr;gap:20px}
+.vside{display:grid;gap:20px}
+.vbox{position:relative;border-radius:16px;overflow:hidden;background:#000;aspect-ratio:16/9;cursor:pointer}
+.vbox img{width:100%;height:100%;object-fit:cover;opacity:.8;transition:.3s}
+.vbox:hover img{opacity:1}
+.vbox .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.vbox .play span{width:72px;height:72px;border-radius:50%;background:rgba(232,115,90,.92);display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+.vbox iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vmeta{margin-top:8px;font-size:14px;color:#c5d6d8;display:flex;justify-content:space-between;gap:10px}
+.vmeta a{color:#9fe3e0;white-space:nowrap}
+
+/* HOTELS */
+.hgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.hcard{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:.25s}
+.hcard:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(13,43,51,.16)}
+.hcard .ph{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,#0b7a83,#9fe3e0);overflow:hidden}
+.hcard .ph img{width:100%;height:100%;object-fit:cover}
+.hcard .ph .badge{position:absolute;top:14px;left:14px;background:var(--coral);color:#fff;font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+.hcard .ph .note{position:absolute;bottom:8px;right:10px;color:#fff;font-size:10px;opacity:.85;text-shadow:0 1px 4px #000}
+.hcard .bd{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.hcard h3{font-size:19px;line-height:1.35}
+.hcard h3 small{display:block;font-size:12px;color:var(--muted);font-weight:500}
+.stars{color:var(--gold);letter-spacing:2px;font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12px;background:var(--sea-l);color:var(--sea-d);padding:4px 10px;border-radius:999px}
+.hcard ul{padding-left:18px;color:var(--ink-2);font-size:14px}
+.hcard .price{margin-top:auto;padding-top:12px;border-top:1px dashed var(--line);display:flex;justify-content:space-between;align-items:baseline;font-size:14px;color:var(--muted)}
+.hcard .price b{font-size:18px;color:var(--ink)}
+.plan{margin-top:34px;display:grid;grid-template-columns:1fr 1fr;gap:0;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.plan div{padding:26px 28px;background:#fff}
+.plan div:first-child{background:var(--sea);color:#fff}
+.plan h4{font-size:13px;letter-spacing:.15em;opacity:.8;margin-bottom:6px}
+.plan p{font-size:18px;font-weight:700}
+.plan span{font-size:14px;opacity:.85;font-weight:400;display:block;margin-top:4px}
+
+/* ACTIVITIES */
+.acts{background:var(--sand)}
+.alist{display:grid;gap:22px}
+.act{display:grid;grid-template-columns:340px 1fr;background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.act .ph{position:relative;min-height:240px;background:linear-gradient(135deg,#0b7a83,#9fe3e0)}
+.act .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.act .rank{position:absolute;top:14px;left:14px;width:46px;height:46px;border-radius:50%;background:#fff;color:var(--sea-d);font:900 20px 'Noto Serif KR';display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.act .bd{padding:26px 30px;display:flex;flex-direction:column;gap:10px}
+.act h3{font-size:21px}
+.act .meta{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted)}
+.act .meta b{color:var(--ink)}
+.act p{color:var(--ink-2);font-size:15px}
+.tip{background:var(--sea-l);border-radius:10px;padding:10px 14px;font-size:14px;color:var(--sea-d)}
+.pick{display:inline-block;background:var(--coral);color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;vertical-align:middle;margin-left:6px}
+
+/* ITINERARY */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.tabs button{border:1px solid var(--line);background:#fff;padding:12px 18px;border-radius:14px;cursor:pointer;font:500 14px 'Noto Sans KR';color:var(--ink-2);text-align:left;transition:.2s}
+.tabs button b{display:block;font-size:16px;color:var(--ink)}
+.tabs button.on{background:var(--sea);border-color:var(--sea);color:#e6f6f6}
+.tabs button.on b{color:#fff}
+.day{display:none;grid-template-columns:1.1fr 1fr;gap:30px;align-items:start}
+.day.on{display:grid}
+.day .ph{border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);position:sticky;top:90px;background:linear-gradient(135deg,#0b7a83,#9fe3e0);aspect-ratio:4/3}
+.day .ph img{width:100%;height:100%;object-fit:cover}
+.day h3{font-family:'Noto Serif KR',serif;font-size:26px;margin-bottom:6px}
+.day .stay{font-size:14px;color:var(--muted);margin-bottom:20px}
+.tl{list-style:none;border-left:2px solid var(--sea-l);padding-left:22px}
+.tl li{position:relative;padding:0 0 18px}
+.tl li::before{content:"";position:absolute;left:-29px;top:6px;width:12px;height:12px;border-radius:50%;background:#fff;border:3px solid var(--sea)}
+.tl .t{font-weight:700;color:var(--sea-d);font-size:14px}
+.tl .w{font-weight:700}
+.tl .d{color:var(--ink-2);font-size:14px}
+
+/* BUDGET */
+.budget{background:linear-gradient(180deg,#fff,var(--sea-l))}
+.bctrl{display:flex;flex-wrap:wrap;gap:18px;align-items:center;margin-bottom:22px}
+.seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px}
+.seg button{border:0;background:none;padding:10px 18px;border-radius:999px;font:700 14px 'Noto Sans KR';color:var(--ink-2);cursor:pointer}
+.seg button.on{background:var(--ink);color:#fff}
+.rate{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--ink-2)}
+.rate input{width:80px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;font:700 14px 'Noto Sans KR'}
+.btable{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);font-size:15px}
+.btable th,.btable td{padding:14px 18px;text-align:left;border-bottom:1px solid var(--line)}
+.btable th{background:var(--ink);color:#fff;font-weight:500;font-size:13px;letter-spacing:.05em}
+.btable td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.btable td small{display:block;color:var(--muted);font-size:12px}
+.btable tr.cat td{background:var(--sand);font-weight:700;font-size:13px;color:var(--ink-2)}
+.btot{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.btot div{background:#fff;border-radius:16px;padding:22px;box-shadow:var(--shadow)}
+.btot div.main{background:var(--coral);color:#fff}
+.btot span{font-size:13px;opacity:.8}
+.btot b{display:block;font-family:'Noto Serif KR',serif;font-size:30px}
+.fine{font-size:13px;color:var(--muted);margin-top:16px}
+
+/* TRANSPORT */
+.route{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin-bottom:40px;position:relative}
+.route .st{text-align:center;padding:0 8px;position:relative}
+.route .st::after{content:"";position:absolute;top:34px;left:calc(50% + 36px);right:calc(-50% + 36px);height:2px;background:repeating-linear-gradient(90deg,var(--sea) 0 8px,transparent 8px 14px)}
+.route .st:last-child::after{display:none}
+.route .ic{width:68px;height:68px;margin:0 auto 12px;border-radius:50%;background:var(--sea);color:#fff;font-size:28px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 20px rgba(11,122,131,.35)}
+.route b{display:block}
+.route span{font-size:13px;color:var(--muted)}
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.tcard{background:#fff;border-radius:var(--r);padding:26px;box-shadow:var(--shadow)}
+.tcard h3{font-size:18px;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.tcard h3 .n{width:28px;height:28px;border-radius:8px;background:var(--ink);color:#fff;font-size:14px;display:inline-flex;align-items:center;justify-content:center}
+.opt{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-top:10px}
+.opt.best{border:2px solid var(--coral);background:#fff8f5}
+.opt h4{font-size:15px;margin-bottom:4px}
+.opt p,.opt li{font-size:14px;color:var(--ink-2)}
+.opt ul{padding-left:18px}
+.ftable{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
+.ftable td,.ftable th{border-bottom:1px solid var(--line);padding:9px 6px;text-align:left}
+.ftable th{color:var(--muted);font-weight:500;font-size:12px}
+
+/* CHECK + SOURCES */
+.check{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.check div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.check b{display:block;margin-bottom:4px}
+.check p{font-size:14px;color:var(--ink-2)}
+.src-list{columns:2 360px;font-size:13px;color:var(--ink-2)}
+.src-list li{margin:0 0 6px 18px;break-inside:avoid}
+footer{background:var(--ink);color:#b7cacd;padding:50px 0;font-size:13px}
+footer .brand{color:#fff;margin-bottom:10px}
+.reveal{opacity:0;transform:translateY(24px);transition:.8s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:980px){
+  .grid3,.hgrid{grid-template-columns:1fr 1fr}
+  .act{grid-template-columns:1fr}.act .ph{min-height:220px}
+  .day.on{grid-template-columns:1fr}.day .ph{position:relative;top:0}
+  .vgrid{grid-template-columns:1fr}
+  .check{grid-template-columns:1fr 1fr}
+  .tgrid{grid-template-columns:1fr}
+}
+@media (max-width:720px){
+  section{padding:70px 0}
+  .menu{display:none;position:absolute;top:60px;left:12px;right:12px;flex-direction:column;background:#fff;border-radius:16px;padding:10px;box-shadow:var(--shadow)}
+  .menu.open{display:flex}
+  .menu button{color:var(--ink)!important;text-align:left}
+  .burger{display:block}
+  .facts{grid-template-columns:1fr 1fr}
+  .facts b{font-size:17px}
+  .grid3,.hgrid,.check,.btot,.plan{grid-template-columns:1fr}
+  .route{grid-template-columns:1fr;gap:18px}
+  .route .st{display:flex;align-items:center;gap:14px;text-align:left}
+  .route .st::after{display:none}
+  .route .ic{margin:0;flex:none;width:54px;height:54px;font-size:22px}
+  .btable th,.btable td{padding:10px 10px;font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="top" id="nav">
+  <div class="wrap">
+    <div class="brand" data-go="home">BOHOL 2026<small>FAMILY EDITION</small></div>
+    <button class="burger" id="burger" aria-label="메뉴">☰</button>
+    <div class="menu" id="menu">
+      <button data-go="news">최신 정보</button>
+      <button data-go="gallery">갤러리</button>
+      <button data-go="video">영상</button>
+      <button data-go="stay">숙박</button>
+      <button data-go="activity">액티비티</button>
+      <button data-go="itinerary">6박 7일 일정</button>
+      <button data-go="budget">예상 경비</button>
+      <button data-go="transport">이동편</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div id="slides"></div>
+  <div class="inner">
+    <div class="wrap">
+      <span class="tag">🌴 2026-27 동계 시즌 · 4인 가족 · 6박 7일</span>
+      <h1>초콜릿 언덕과<br><em>에메랄드 바다</em>를 한 번에,<br>보홀 가족 일주일</h1>
+      <p class="sub">인천에서 직항 약 4시간 30분. 돌고래와 바다거북, 세계에서 가장 작은 영장류 타르시어, 1,200개가 넘는 초콜릿 힐스까지. 아이와 부모 모두 만족하는 프리미엄 보홀 여행을 한 페이지에 담았습니다.</p>
+      <div class="cta">
+        <button class="btn primary" data-go="itinerary">추천 일정 보기 →</button>
+        <button class="btn ghost" data-go="budget">예상 경비 계산</button>
+      </div>
+      <div class="facts">
+        <div><b>약 4h 30~45m</b><span>인천 → 팡라오 직항</span></div>
+        <div><b>-1시간</b><span>한국 대비 시차</span></div>
+        <div><b>무비자 30일</b><span>eTravel 사전 등록 필수</span></div>
+        <div><b>₱1 ≈ 21.6원</b><span>2026년 11월 초 기준</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="caption" id="heroCap"></div>
+</header>
+
+<!-- ============ 1. NEWS ============ -->
+<section class="news" id="news">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">01 · Latest Update</span>
+      <h2 class="title">2026년 11월 기준, 보홀 최신 정보</h2>
+      <p class="lead">출발 전 꼭 알아야 할 항공·입국·현지 동향을 정리했습니다. 항공 스케줄과 요금은 시즌별로 바뀌니 예약 직전 항공사 공지를 한 번 더 확인하세요.</p>
+    </div>
+    <div class="grid3">
+      <div class="ncard reveal"><div class="ico">✈️</div><h3>인천·부산 직항 매일 운항</h3><p>2026년 8월 보홀 팡라오 국제공항 공지 기준 제주항공은 인천·부산 노선을 각각 주 7회, 진에어는 인천 노선을 주 7회 운항합니다. 인천 출발은 주로 18:00~21:30 사이 저녁편입니다.</p><span class="src">출처: BPIA 운항 공지(2026.8), Directflights</span></div>
+      <div class="ncard reveal"><div class="ico">🗓️</div><h3>동계 정기편 시즌 적용</h3><p>국토교통부의 2026년 동계 정기 항공편 일정이 2026년 10월 25일부터 2027년 3월 27일까지 적용됩니다. 겨울방학·설 연휴는 요금이 크게 오르니 3~4개월 전 예약을 권합니다.</p><span class="src">출처: 국토교통부·대한민국 정책브리핑</span></div>
+      <div class="ncard hl reveal"><div class="ico">🛂</div><h3>무비자 30일 + eTravel 필수</h3><p>한국 여권은 관광 목적 30일 이내 무비자 입국이 가능합니다. 단, 모든 입국자는 도착 72시간 전부터 eTravel(etravel.gov.ph)에 무료 등록 후 QR코드를 받아야 합니다. 여권 잔여 유효기간 6개월 이상을 확인하세요.</p><span class="src">출처: 주한 필리핀 대사관, Sherpa</span></div>
+      <div class="ncard gd reveal"><div class="ico">💱</div><h3>페소 약세, 여행자에겐 기회</h3><p>2026년 11월 8일 기준 ₱15,000이 약 324,000원으로, ₱1은 약 21.6원입니다. 필리핀 페소는 2026년 내내 약세 흐름을 보여 원화 환전 여행자에게 유리한 편입니다.</p><span class="src">출처: FX Exchange Rate, Trading Economics</span></div>
+      <div class="ncard reveal"><div class="ico">🌤️</div><h3>11월부터 성수기 시작</h3><p>현지 업계에 따르면 11월부터 해외 관광객이 돌아오기 시작해 12월~3월에 국내외 방문객이 가장 많습니다. 건기라 바다 컨디션이 좋지만, 11월 초중순은 태풍 영향 가능성이 남아 있어 여행자 보험을 꼭 챙기세요.</p><span class="src">출처: Inquirer</span></div>
+      <div class="ncard reveal"><div class="ico">🏝️</div><h3>버진아일랜드 재입도 가능</h3><p>호핑투어 마지막 코스인 버진아일랜드가 2026년 2월부터 다시 상륙 가능해졌습니다. 선택 사항이며 입장료는 현장 결제입니다. 물때(썰물)에 맞춰야 모래톱이 드러납니다.</p><span class="src">출처: 마이리얼트립 상품 공지</span></div>
+      <div class="ncard reveal"><div class="ico">🐬</div><h3>해양 야생동물 관광 조례 강화</h3><p>보홀주는 2026년 조례 제2026-004호(해양 야생동물 관광 상호작용 강화)의 시행 규칙을 발표했습니다. 돌고래·거북이 관찰 시 가이드 안내에 따라 거리를 유지하고 만지지 않는 것이 원칙입니다.</p><span class="src">출처: 보홀 주정부(2026.5)</span></div>
+      <div class="ncard reveal"><div class="ico">🛫</div><h3>팡라오 공항 수용력 확대</h3><p>보홀 팡라오 국제공항은 2026년 9월 수용력과 노선 확대를 발표했고, 11월에는 방문객용 디스커버리 가이드를 선보였습니다. 공항에서 알로나 비치까지는 차로 10~15분 거리입니다.</p><span class="src">출처: Daily Tribune, CAPA</span></div>
+      <div class="ncard hl reveal"><div class="ico">📉</div><h3>상반기 관광객 22% 감소 → 한산</h3><p>2026년 상반기 보홀 방문객은 약 63.7만 명으로 전년 대비 약 22% 줄었습니다. 유가 상승과 LCC 노선 축소 영향인데, 여행자 입장에선 덜 붐비는 해변과 리조트 프로모션을 기대할 수 있습니다.</p><span class="src">출처: TTG Asia(2026.9)</span></div>
+    </div>
+    <div class="alert reveal">💡 <b>보홀은 유네스코 세계지질공원(Global Geopark)</b>이며, 2026년에도 한국인이 가장 많이 찾는 필리핀 여행지 중 하나로 꼽힙니다(필리핀 관광부 7지역 사무소). 지질공원 규정상 일부 명소에서는 드론 촬영·채집이 제한될 수 있습니다.</div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">02 · Photo Gallery</span>
+      <h2 class="title">사진으로 먼저 떠나는 보홀</h2>
+      <p class="lead">모두 보홀 현지에서 촬영된 실제 사진입니다(Wikimedia Commons, 2017~2023년 촬영분 위주). 사진을 누르면 크게 볼 수 있습니다.</p>
+    </div>
+    <div class="gallery" id="galleryGrid"></div>
+  </div>
+</section>
+
+<div class="lightbox" id="lb">
+  <button class="lb-x" id="lbX" aria-label="닫기">×</button>
+  <button class="lb-p" id="lbP" aria-label="이전">‹</button>
+  <img id="lbImg" alt="">
+  <div class="lb-cap" id="lbCap"></div>
+  <button class="lb-n" id="lbN" aria-label="다음">›</button>
+</div>
+
+<!-- ============ VIDEO ============ -->
+<section class="video" id="video">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">03 · Video</span>
+      <h2 class="title">4K 영상으로 미리 보는 보홀</h2>
+      <p class="lead">재생 버튼을 누르면 페이지 안에서 바로 재생됩니다. 영상 소유자 설정에 따라 외부 재생이 막힌 경우 'YouTube에서 보기'를 눌러 주세요.</p>
+    </div>
+    <div class="vgrid" id="videoGrid"></div>
+  </div>
+</section>
+
+<!-- ============ 2. STAY ============ -->
+<section id="stay">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">04 · Premium Stay</span>
+      <h2 class="title">최고 시설의 리조트 6선</h2>
+      <p class="lead">가족 동반 기준으로 해변 접근성, 수영장, 패밀리 객실, 공항 거리를 따져 골랐습니다. 요금은 성수기(1~4월) 스탠다드 객실 1박 기준 참고가이며 패밀리룸·빌라는 더 높습니다.</p>
+    </div>
+    <div class="hgrid" id="hotelGrid"></div>
+    <div class="plan reveal">
+      <div><h4>RECOMMENDED SPLIT STAY</h4><p>헤난 알로나 비치 3박 + 아모리타 3박</p><span>앞 3박은 해변·식당이 가까운 알로나 중심에서 활동적으로, 뒤 3박은 절벽 위 오션뷰 리조트에서 여유롭게 마무리하는 구성입니다.</span></div>
+      <div><h4>왜 6박을 모두 예약하나요?</h4><p style="color:var(--ink)">밤 비행기 도착·출발 때문입니다</p><span style="color:var(--ink-2)">01시대 도착이라 첫날 밤부터 객실이 필요하고, 마지막 날도 새벽 01:45 출발이라 저녁까지 객실을 쓰는 편이 아이들 컨디션에 훨씬 좋습니다.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. ACTIVITIES ============ -->
+<section class="acts" id="activity">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">05 · Must-Do Activities</span>
+      <h2 class="title">가족 만족도 순 추천 액티비티</h2>
+      <p class="lead">아이 동반 난이도, 체험 가치, 이동 동선을 종합해 순위를 매겼습니다. 1~3위는 이번 일정에 모두 포함되어 있습니다.</p>
+    </div>
+    <div class="alist" id="actList"></div>
+  </div>
+</section>
+
+<!-- ============ 4. ITINERARY ============ -->
+<section id="itinerary">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">06 · 6 Nights 7 Days</span>
+      <h2 class="title">4인 가족 6박 7일 추천 일정</h2>
+      <p class="lead">제주항공 저녁 직항(예: 인천 21:30 → 보홀 01:15 / 보홀 01:45 → 인천 07:10)을 기준으로 짰습니다. 활동일과 휴식일을 번갈아 배치해 아이들이 지치지 않도록 했습니다.</p>
+    </div>
+    <div class="tabs" id="dayTabs"></div>
+    <div id="dayPanels"></div>
+  </div>
+</section>
+
+<!-- ============ 5. BUDGET ============ -->
+<section class="budget" id="budget">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">07 · Estimated Budget</span>
+      <h2 class="title">예상 여행 경비 (4인 가족 6박 7일)</h2>
+      <p class="lead">성인 2명 + 아동 2명, 12월~2월 성수기 출발 기준 추정치입니다. 등급을 바꾸면 합계가 자동으로 다시 계산되고, 환율을 입력하면 페소 환산액도 바뀝니다.</p>
+    </div>
+    <div class="bctrl">
+      <div class="seg" id="tierSeg">
+        <button data-t="0">실속형</button><button data-t="1" class="on">추천형</button><button data-t="2">프리미엄</button>
+      </div>
+      <label class="rate">환율 ₱1 = <input type="number" id="rateIn" value="21.6" step="0.1" min="10" max="40"> 원</label>
+    </div>
+    <table class="btable" id="btable"></table>
+    <div class="btot">
+      <div class="main"><span>총 예상 경비</span><b id="totKrw">-</b><span id="totPhp"></span></div>
+      <div><span>1인당 평균</span><b id="perHead">-</b><span>4인 기준</span></div>
+      <div><span>현지 지출(페소 결제 예상분)</span><b id="localKrw">-</b><span>환전·카드 준비 기준</span></div>
+    </div>
+    <p class="fine">※ 항공·숙박 요금은 출발일, 예약 시점, 객실 타입에 따라 크게 달라집니다. 12/31 및 2027년 설 연휴(헤난 계열 2/5~2/6) 투숙 시 의무 갈라 디너 요금이 추가될 수 있습니다. 투어 요금은 국내 예약 플랫폼 및 현지 업체 공시가를 바탕으로 한 추정치입니다.</p>
+  </div>
+</section>
+
+<!-- ============ 6. TRANSPORT ============ -->
+<section id="transport">
+  <div class="wrap">
+    <div class="head reveal">
+      <span class="eyebrow">08 · Door to Door</span>
+      <h2 class="title">경기도 광명 → 보홀 리조트, 최선의 이동편</h2>
+      <p class="lead">광명은 KTX 광명역에서 인천공항으로 바로 가는 공항버스와 도심공항터미널이 있어 수도권에서 가장 편하게 출국할 수 있는 지역 중 하나입니다.</p>
+    </div>
+
+    <div class="route reveal">
+      <div class="st"><div class="ic">🏠</div><div><b>광명 자택</b><span>KTX 광명역까지 이동</span></div></div>
+      <div class="st"><div class="ic">🚌</div><div><b>6770 공항버스</b><span>광명역 4번 출구 · 약 1시간</span></div></div>
+      <div class="st"><div class="ic">🛫</div><div><b>인천공항</b><span>제주항공 T1 · 진에어 T2</span></div></div>
+      <div class="st"><div class="ic">✈️</div><div><b>직항 약 4h 30~45m</b><span>보홀 팡라오(TAG) 도착</span></div></div>
+      <div class="st"><div class="ic">🏨</div><div><b>리조트</b><span>픽업 차량 10~15분</span></div></div>
+    </div>
+
+    <div class="tgrid">
+      <div class="tcard reveal">
+        <h3><span class="n">1</span>광명 → 인천공항</h3>
+        <div class="opt best">
+          <h4>✅ 최선: KTX 광명역 6770 공항버스 (+ 도심공항터미널)</h4>
+          <ul>
+            <li>노선: KTX 광명역 4번 출구 → 송도국제교 입구 → 인천공항 T1 → T2</li>
+            <li>요금: 성인 16,000원 (아동 요금은 탑승 전 확인)</li>
+            <li>배차: 약 20~30분, 좌석 지정제 리무진</li>
+            <li>광명역 도심공항터미널(서편 지하 1층)에서 제주항공·대한항공 등 체크인과 수하물 위탁이 가능해 캐리어 없이 이동할 수 있습니다. 운영·마감 시간은 출발 전 확인하세요.</li>
+          </ul>
+        </div>
+        <div class="opt">
+          <h4>🚗 대안: 자가용 + 장기주차장</h4>
+          <p>인천공항 장기주차장은 1일 9,000원(소형)으로, 7일이면 약 63,000원입니다. 4인 가족은 버스 왕복보다 저렴할 수 있지만, 귀국 당일 아침 운전 피로를 고려하세요.</p>
+        </div>
+        <div class="opt">
+          <h4>🚕 대안: 콜밴·택시</h4>
+          <p>짐이 많거나 아이가 어릴 때 편리합니다. 사전 예약형 콜밴은 업체별 요금 차이가 크므로 견적 비교가 필요합니다.</p>
+        </div>
+      </div>
+
+      <div class="tcard reveal">
+        <h3><span class="n">2</span>인천 → 보홀 팡라오 직항</h3>
+        <table class="ftable">
+          <tr><th>항공사</th><th>터미널</th><th>대표 스케줄(예시)</th><th>비고</th></tr>
+          <tr><td><b>제주항공</b></td><td>T1</td><td>ICN 21:30 → TAG 01:15<br>TAG 01:45 → ICN 07:10</td><td>매일, 시즌별 20:45 출발편도 있음</td></tr>
+          <tr><td><b>진에어</b></td><td>T2</td><td>ICN 저녁 출발 → TAG 새벽 도착<br>TAG 02:15 → ICN 07:50 전후</td><td>매일, 위탁수하물 15kg 기본 포함</td></tr>
+        </table>
+        <div class="opt best" style="margin-top:14px">
+          <h4>✅ 추천: 제주항공 + 광명역 도심공항터미널 조합</h4>
+          <p>광명역에서 미리 체크인하면 공항에서 전용 출입구로 빠르게 출국할 수 있어 아이 동반 가족에게 특히 유리합니다. 특가 운임은 위탁수하물이 없는 경우가 많으니 4인 가족은 수하물 포함 운임으로 사전 구매하세요.</p>
+        </div>
+        <div class="opt">
+          <h4>🧾 출발 전 체크</h4>
+          <ul><li>eTravel 등록: 출발 72시간 이내, 가족 각각 QR 발급</li><li>출국 3시간 전 공항 도착 (광명역 체크인 시 마감 시간 확인)</li><li>보조배터리는 기내 반입만 가능</li></ul>
+        </div>
+      </div>
+
+      <div class="tcard reveal">
+        <h3><span class="n">3</span>보홀 공항 → 리조트</h3>
+        <div class="opt best">
+          <h4>✅ 최선: 리조트 공항 픽업 사전 예약</h4>
+          <p>01시대 도착이라 현장에서 차량을 구하기 어렵습니다. 리조트 픽업은 차량 1대당 편도 약 ₱900~1,000(최대 5인) 수준이며, 공항에서 알로나 비치 일대까지 10~15분이면 도착합니다.</p>
+        </div>
+        <div class="opt">
+          <h4>🛺 대안: 공항 택시·트라이시클</h4>
+          <p>택시는 현장 흥정이 필요하고, 트라이시클은 ₱200~300 정도지만 4인 가족과 캐리어를 싣기엔 좁습니다. 낮 시간 이동에만 권합니다.</p>
+        </div>
+      </div>
+
+      <div class="tcard reveal">
+        <h3><span class="n">4</span>귀국 동선 (Day 6 밤 ~ Day 7)</h3>
+        <ul class="tl" style="margin-top:6px">
+          <li><div class="t">22:30</div><div class="w">리조트 출발 (6박째 객실 유지)</div><div class="d">샤워·짐 정리 후 리조트 차량으로 공항 이동</div></li>
+          <li><div class="t">23:00</div><div class="w">팡라오 공항 체크인</div><div class="d">출국 eTravel QR 준비, 면세 쇼핑은 소규모</div></li>
+          <li><div class="t">01:45</div><div class="w">보홀 출발</div><div class="d">기내 수면, 목베개 추천</div></li>
+          <li><div class="t">07:10</div><div class="w">인천공항 T1 도착</div><div class="d">입국 후 6770 공항버스 탑승</div></li>
+          <li><div class="t">09:00 전후</div><div class="w">KTX 광명역 도착 → 귀가</div><div class="d">출근 시간대 교통량에 따라 변동</div></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHECKLIST ============ -->
+<section style="background:var(--sand);padding:70px 0">
+  <div class="wrap">
+    <div class="head reveal" style="margin-bottom:28px"><span class="eyebrow">09 · Checklist</span><h2 class="title">가족 여행 준비물 체크리스트</h2></div>
+    <div class="check">
+      <div class="reveal"><b>🛂 서류</b><p>여권(6개월 이상), eTravel QR, 왕복 항공권, 영문 가족관계증명서(미성년 자녀 동반 시 권장)</p></div>
+      <div class="reveal"><b>💵 결제</b><p>페소 현금 일부(팁·트라이시클), 해외 결제 카드, 원화 환전은 알로나 비치 환전소 비교</p></div>
+      <div class="reveal"><b>🏖️ 해양</b><p>리프 세이프 선크림, 래시가드, 아쿠아슈즈, 방수팩, 아이용 구명조끼(투어 제공 여부 확인)</p></div>
+      <div class="reveal"><b>🩺 건강</b><p>상비약, 모기 기피제, 여행자 보험(태풍·항공 지연 보장 포함), 220V 콘센트 확인</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<section style="padding:70px 0">
+  <div class="wrap">
+    <div class="head" style="margin-bottom:22px"><span class="eyebrow">Sources & Credits</span><h2 class="title" style="font-size:26px">참고 자료 및 사진 출처</h2></div>
+    <ul class="src-list" id="srcList"></ul>
+    <h3 style="font-size:16px;margin:30px 0 10px">사진 출처 (Wikimedia Commons, 각 파일의 CC 라이선스 적용)</h3>
+    <ul class="src-list" id="creditList"></ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand">BOHOL 2026 <small>FAMILY EDITION</small></div>
+    <p>본 페이지의 요금·스케줄은 2026년 11월 16일 기준으로 수집한 공개 정보와 추정치이며, 실제 예약 시 각 항공사·리조트·투어사 공지를 우선합니다.</p>
+  </div>
+</footer>
+
+<script>
+/* ---------- Helpers ---------- */
+var IMG = function(f, w){ return 'https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(f.replace(/ /g,'_')) + '?width=' + (w||1280); };
+var PAGE = function(f){ return 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(f.replace(/ /g,'_')); };
+var $ = function(s){ return document.querySelector(s); };
+function guardImg(img){ img.addEventListener('error', function(){ if(img.parentNode) img.parentNode.classList.add('broken'); }); }
+function won(n){ return Math.round(n).toLocaleString('ko-KR') + '원'; }
+function man(n){ var m = n/10000; return (m >= 100 ? Math.round(m).toLocaleString('ko-KR') : m.toFixed(1)) + '만원'; }
+
+/* ---------- Photo library (real Bohol photos) ---------- */
+var P = {
+  hills:    ['Chocolate Hills Carmen Bohol 2019.jpg','초콜릿 힐스, 카르멘 (2019)'],
+  hills2:   ["Bohol's Chocolate Hills.jpg",'초콜릿 힐스 항공 전경 (2020)'],
+  hills3:   ['Bohol Hills, Chocolate Hills, Philippines.jpg','초콜릿 힐스 전망대 풍경'],
+  alonaAir: ['Panglao coast, Alona Beach from air (Panglao, Bohol; 01-09-2023).jpg','하늘에서 본 알로나 비치 (2023)'],
+  alonaW:   ['Alona Beach west (Panglao, Bohol; 01-09-2023).jpg','알로나 비치 서쪽 해변 (2023)'],
+  alonaS:   ['Alona Beach seafront (Panglao, Bohol; 01-09-2023).jpg','알로나 비치 해변가 (2023)'],
+  panglaoSea:['Bohol Sea, Panglao from air (Panglao, Bohol; 01-09-2023).jpg','팡라오 앞바다 항공 뷰 (2023)'],
+  panglaoV: ['Panglao Island view from Baclayon (Dauis, Bohol; 01-12-2023).jpg','바클라욘에서 본 팡라오 섬 (2023)'],
+  balicasag:['Balicasag Island.jpg','발리카삭 섬 (2019)'],
+  reef:     ['Balicasag Marine Sanctuary, Bohol, Philippines 01.jpg','발리카삭 해양보호구역 수중'],
+  dolphin:  ["Gray's spinner dolphin (Stenella longirostris longirostris) Panglao.jpg",'팡라오 앞바다 스피너 돌고래'],
+  tarsier:  ['Philippine tarsier (Carlito syrichta fraterculus) Bohol.jpg','필리핀 타르시어'],
+  loboc:    ['Loboc River Cruise (Poblacion, Loboc, Bohol; 01-12-2023).jpg','로복강 크루즈 (2023)'],
+  loboc2:   ['Loboc river cruise Bohol 2017.jpg','로복강 정글 리버 크루즈'],
+  forest:   ['Loay Interior Road, Bilar Man-made Forest (Bilar, Bohol; 01-10-2023).jpg','빌라르 마호가니 인공숲 (2023)'],
+  church:   ['Baclayon Church 2017 1 exterior.jpg','바클라욘 성당'],
+  cave:     ['Hinagdanancave.jpg','히낙다난 동굴'],
+  caveSwim: ['Snorkeling in Hinagdanan Cave.jpg','히낙다난 동굴 수영'],
+  airport:  ['Terminal building of the Bohol-Panglao International Airport.jpg','보홀 팡라오 국제공항 터미널'],
+  bangka:   ['Bangka Panglao Bohol 2017.jpg','팡라오 방카 보트'],
+  sunset:   ['Tagbilaran, Sunset in Cebu Strait, Bohol Sea, Philippines.jpg','보홀 바다 일몰'],
+  bbc:      ['Bohol beach club.jpg','보홀 비치 클럽 앞 해변'],
+  pool:     ['Swimming pool overlooking the Bohol sea - panoramio.jpg','알로나 일대 오션뷰 수영장'],
+  pbeach:   ['Panglao Island Beach.jpg','팡라오 섬 해변'],
+  psunset:  ['Panglao Island Beach Sunset.jpg','팡라오 해변 선셋']
+};
+
+/* ---------- Hero slideshow ---------- */
+(function(){
+  var list = [P.hills, P.alonaAir, P.balicasag, P.loboc];
+  var box = $('#slides'), cap = $('#heroCap'), i = 0, els = [];
+  list.forEach(function(p, k){
+    var d = document.createElement('div'); d.className = 'slide' + (k===0?' on':'');
+    d.style.backgroundImage = 'url("' + IMG(p[0], 1920) + '")';
+    box.appendChild(d); els.push(d);
+  });
+  cap.textContent = '📷 ' + list[0][1];
+  setInterval(function(){
+    els[i].classList.remove('on'); i = (i+1) % els.length; els[i].classList.add('on');
+    cap.textContent = '📷 ' + list[i][1];
+  }, 6000);
+})();
+
+/* ---------- Gallery + Lightbox ---------- */
+var GAL = [P.alonaAir,P.hills2,P.tarsier,P.balicasag,P.loboc,P.dolphin,P.alonaW,P.forest,P.reef,P.church,P.panglaoSea,P.caveSwim,P.hills3,P.bangka,P.sunset,P.panglaoV,P.airport,P.alonaS];
+(function(){
+  var g = $('#galleryGrid');
+  GAL.forEach(function(p, k){
+    var f = document.createElement('figure'); f.className = 'reveal';
+    var im = document.createElement('img'); im.loading = 'lazy'; im.alt = p[1]; im.src = IMG(p[0], 800); guardImg(im);
+    var c = document.createElement('figcaption'); c.textContent = p[1];
+    f.appendChild(im); f.appendChild(c); f.onclick = function(){ openLB(k); }; g.appendChild(f);
+  });
+})();
+var lbI = 0;
+function openLB(k){ lbI = k; var p = GAL[k]; $('#lbImg').src = IMG(p[0], 1600); $('#lbImg').alt = p[1];
+  $('#lbCap').innerHTML = p[1] + '<small>' + p[0] + ' · Wikimedia Commons</small>'; $('#lb').classList.add('on'); }
+$('#lbX').onclick = function(){ $('#lb').classList.remove('on'); };
+$('#lbP').onclick = function(){ openLB((lbI - 1 + GAL.length) % GAL.length); };
+$('#lbN').onclick = function(){ openLB((lbI + 1) % GAL.length); };
+$('#lb').addEventListener('click', function(e){ if(e.target.id === 'lb') this.classList.remove('on'); });
+document.addEventListener('keydown', function(e){ if(!$('#lb').classList.contains('on')) return;
+  if(e.key==='Escape') $('#lbX').click(); if(e.key==='ArrowLeft') $('#lbP').click(); if(e.key==='ArrowRight') $('#lbN').click(); });
+
+/* ---------- Videos (lite YouTube embed) ---------- */
+var VIDS = [
+  ['_7lIQsvwp50','4K 보홀 아일랜드 투어: 알로나·두말루안 비치, 히낙다난 동굴, 초콜릿 힐스, 타르시어'],
+  ['PIiaB9ha2lc','Bohol in 4K: 초콜릿 힐스와 녹색 계곡 항공 촬영'],
+  ['o-f3MU7ESeo','팡라오 해변과 초콜릿 힐스 4K UHD'],
+  ['gAqTOy5oUkM','보홀 4K 여행 다큐멘터리']
+];
+(function(){
+  var g = $('#videoGrid');
+  function box(v){
+    var w = document.createElement('div');
+    var b = document.createElement('div'); b.className = 'vbox';
+    b.innerHTML = '<img loading="lazy" alt="" src="https://i.ytimg.com/vi/' + v[0] + '/hqdefault.jpg"><div class="play"><span>▶</span></div>';
+    b.onclick = function(){ b.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + v[0] + '?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen title="' + v[1] + '"></iframe>'; b.onclick = null; };
+    var m = document.createElement('div'); m.className = 'vmeta';
+    m.innerHTML = '<span>' + v[1] + '</span><a href="https://www.youtube.com/watch?v=' + v[0] + '" target="_blank" rel="noopener">YouTube에서 보기 ↗</a>';
+    w.appendChild(b); w.appendChild(m); return w;
+  }
+  g.appendChild(box(VIDS[0]));
+  var side = document.createElement('div'); side.className = 'vside';
+  VIDS.slice(1).forEach(function(v){ side.appendChild(box(v)); });
+  g.appendChild(side);
+})();
+
+/* ---------- Hotels ---------- */
+var HOTELS = [
+  {n:'헤난 리조트 알로나 비치',e:'Henann Resort Alona Beach',s:5,badge:'가족 1순위',img:P.alonaW,
+   chips:['알로나 비치 직결','수영장 3개','패밀리룸 최대 5인'],
+   li:['알로나 비치 상권 중심, 해변 바로 앞','인피니티풀·스윔업 바 포함 대형 수영장 단지','패밀리룸(퀸 1 + 싱글 3) 4인 가족에 최적','체크인 15:00 / 체크아웃 11:00'],
+   price:'약 $200~'},
+  {n:'아모리타 리조트',e:'Amorita Resort',s:5,badge:'럭셔리 오션뷰',img:P.pool,
+   chips:['절벽 위 180° 오션뷰','인피니티풀 2개','PADI 다이브센터'],
+   li:['Trip.com 팡라오 럭셔리 호텔 1위(9.0/10)','2베드룸 스위트·빌라로 가족 분리 공간 확보','스파·레스토랑 4곳, 선셋 해피아워','알로나 비치 도보권'],
+   price:'약 $275~'},
+  {n:'에스카야 비치 리조트 & 스파',e:'Eskaya Beach Resort & Spa',s:5,badge:'최고급 풀빌라',img:P.pbeach,
+   chips:['전 객실 개인 풀','프라이빗 비치','24채 빌라'],
+   li:['24채 모든 빌라에 프라이빗 풀','한적한 전용 해변과 인피니티 풀 데크','테니스·농구 코트 보유','특별한 기념일 가족여행에 추천'],
+   price:'약 $390~'},
+  {n:'비 그랜드 리조트 보홀',e:'BE Grand Resort Bohol',s:5,badge:'아이들 최애 수영장',img:P.psunset,
+   chips:['레이지 리버','라군 풀','게임룸'],
+   li:['레이지 리버·라군 풀로 아이들 만족도 높음','레스토랑 5곳, 단독 빌라 객실','공항 셔틀 차량 1대 편도 ₱1,000(정원 5명)','컨벤션 시설 신규 확장'],
+   price:'약 $195~'},
+  {n:'보홀 비치 클럽',e:'Bohol Beach Club',s:4,badge:'최고의 백사장',img:P.bbc,
+   chips:['팡라오 최상급 해변','아쿠아스포츠센터','수영장 2개'],
+   li:['완만하고 넓은 백사장, 아이 물놀이에 안전','다이빙·스노클링 센터 운영','공항까지 약 15분, 공항이동 ₱900','조식 별도 시 ₱850'],
+   price:'약 $225~'},
+  {n:'사우스 팜스 리조트 & 스파',e:'South Palms Resort & Spa Panglao (MGallery)',s:5,badge:'조용한 휴양',img:P.panglaoSea,
+   chips:['프라이빗 비치','무료 카약·SUP','MGallery'],
+   li:['외곽의 한적한 위치, 넓은 전용 해변','카약·SUP 등 해양 액티비티 무료','Tatler 선정 필리핀 우수 호텔 계열','보홀 비치 클럽과 인접'],
+   price:'약 $225~'}
+];
+(function(){
+  var g = $('#hotelGrid');
+  HOTELS.forEach(function(h){
+    var c = document.createElement('div'); c.className = 'hcard reveal';
+    c.innerHTML = '<div class="ph"><img loading="lazy" alt="' + h.e + '" src="' + IMG(h.img[0], 900) + '"><span class="badge">' + h.badge + '</span><span class="note">인근 실사: ' + h.img[1] + '</span></div>' +
+      '<div class="bd"><div class="stars">' + '★'.repeat(h.s) + '</div><h3>' + h.n + '<small>' + h.e + '</small></h3>' +
+      '<div class="chips">' + h.chips.map(function(x){return '<span class="chip">'+x+'</span>';}).join('') + '</div>' +
+      '<ul>' + h.li.map(function(x){return '<li>'+x+'</li>';}).join('') + '</ul>' +
+      '<div class="price"><span>스탠다드 1박 참고가</span><b>' + h.price + '</b></div></div>';
+    guardImg(c.querySelector('img')); g.appendChild(c);
+  });
+})();
+
+/* ---------- Activities ---------- */
+var ACTS = [
+  {t:'발리카삭 호핑 + 돌고래 왓칭 + 버진아일랜드',pick:true,img:P.balicasag,time:'06:00~12:00 (약 4~6시간)',price:'조인 1인 약 2.7만원~ / 단독보트 1인 약 4.9만원~',kid:'★★★★★',
+   d:'이른 아침 방카 보트를 타고 팡라오 앞바다에서 야생 스피너 돌고래 떼를 찾고, 발리카삭 해양보호구역에서 바다거북·열대어와 스노클링을 합니다. 썰물 때 드러나는 버진아일랜드 모래톱이 마지막 코스입니다.',
+   tip:'아이 동반이면 단독보트 + 한국어 가이드 + 고프로 촬영 포함 상품이 만족도가 높습니다. 거북이·돌고래는 절대 만지지 마세요.'},
+  {t:'보홀 육상투어: 초콜릿 힐스 · 타르시어 · 로복강 런치크루즈',pick:true,img:P.hills,time:'08:00~17:00 (약 8시간)',price:'프라이빗 차량 4인 약 30~35만원 (초콜릿 힐스 입장료 ₱150/인)',kid:'★★★★★',
+   d:'바클라욘 성당 → 타르시어 보호구역 → 로복강 수상 레스토랑 뷔페 크루즈(라이브 음악) → 빌라르 마호가니 인공숲 → 초콜릿 힐스 전망대로 이어지는 보홀 대표 코스입니다.',
+   tip:'에어컨 프라이빗 차량을 예약하면 아이 컨디션에 맞춰 일정을 조절할 수 있습니다. 타르시어는 야행성이라 플래시·큰 소리 금지입니다.'},
+  {t:'아바탄강 반딧불이 투어',pick:true,img:P.sunset,time:'일몰 후 약 1~1.5시간',price:'보트+입장료 ₱2,000 (1~5인) + 차량',kid:'★★★★☆',
+   d:'맹그로브 숲 사이를 소리 없이 미끄러지는 보트 위에서 크리스마스트리처럼 반짝이는 반딧불이를 감상합니다. 육상투어 귀갓길에 묶으면 동선이 깔끔합니다.',
+   tip:'모기 기피제 필수. 달이 밝지 않은 날일수록 더 선명하게 보입니다.'},
+  {t:'초콜릿 힐스 ATV 어드벤처',img:P.hills3,time:'약 30분~1시간',price:'투어 옵션으로 추가 (업체별 상이)',kid:'★★★☆☆',
+   d:'초콜릿 힐스 사이 비포장 트레일을 ATV(쿼드 바이크)로 달리는 체험입니다. 성인과 청소년 자녀에게 특히 인기가 많습니다.',
+   tip:'대부분 1인 1대 기준이며 연령·키 제한이 있습니다. 어린 자녀는 동승 가능 여부를 확인하세요.'},
+  {t:'히낙다난 동굴',img:P.caveSwim,time:'약 1시간',price:'소액 입장료 (현장 결제)',kid:'★★★★☆',
+   d:'팡라오 다우이스에 있는 석회암 동굴로, 천장 구멍으로 들어온 빛이 지하 호수를 비춥니다. 공항·알로나와 가까워 반나절 일정에 넣기 좋습니다.',
+   tip:'계단이 미끄러우니 아쿠아슈즈를 신으세요.'},
+  {t:'나팔링 정어리떼 스노클링 & 체험 다이빙',img:P.reef,time:'반나절',price:'업체별 상이',kid:'★★★☆☆',
+   d:'팡라오 북서쪽 나팔링 리프에서는 수면 가까이 몰려드는 정어리 떼를 볼 수 있습니다. 리조트 다이브센터의 체험 다이빙(PADI Discover Scuba)도 가족 추억으로 추천합니다.',
+   tip:'수영이 익숙하지 않은 아이는 구명조끼 착용 후 가이드와 함께 들어가세요.'}
+];
+(function(){
+  var g = $('#actList');
+  ACTS.forEach(function(a, k){
+    var c = document.createElement('div'); c.className = 'act reveal';
+    c.innerHTML = '<div class="ph"><img loading="lazy" alt="" src="' + IMG(a.img[0], 900) + '"><div class="rank">' + (k+1) + '</div></div>' +
+      '<div class="bd"><h3>' + a.t + (a.pick ? '<span class="pick">일정 포함</span>' : '') + '</h3>' +
+      '<div class="meta"><span>⏱ <b>' + a.time + '</b></span><span>💰 <b>' + a.price + '</b></span><span>👨‍👩‍👧‍👦 가족 추천도 <b style="color:var(--gold)">' + a.kid + '</b></span></div>' +
+      '<p>' + a.d + '</p><div class="tip">💡 ' + a.tip + '</div></div>';
+    guardImg(c.querySelector('img')); g.appendChild(c);
+  });
+})();
+
+/* ---------- Itinerary ---------- */
+var DAYS = [
+  {d:'Day 1',s:'출국 · 보홀 도착',img:P.airport,stay:'🏨 헤난 리조트 알로나 비치 1박째 (도착 당일 밤부터 예약)',
+   tl:[['16:30','광명 자택 출발','KTX 광명역 도심공항터미널에서 체크인·수하물 위탁(운영시간 확인)'],['17:00','6770 공항버스 탑승','광명역 4번 출구, 약 1시간'],['18:00','인천공항 T1 도착','출국 심사, 저녁 식사, 면세점'],['21:30','제주항공 직항 출발','기내에서 아이들 수면'],['01:15','보홀 팡라오 공항 도착','eTravel QR로 입국 심사, 리조트 픽업 차량 탑승'],['01:40','리조트 체크인','바로 휴식']]},
+  {d:'Day 2',s:'알로나 비치 적응의 날',img:P.alonaW,stay:'🏨 헤난 리조트 알로나 비치 2박째',
+   tl:[['09:30','늦은 조식','리조트 뷔페 조식'],['11:00','리조트 수영장','인피니티풀·스윔업 바에서 휴식'],['15:00','알로나 비치 산책','환전, 유심/eSIM 확인, 다음날 투어 픽업 확인'],['17:30','알로나 선셋','해변에서 가족 사진 촬영'],['19:00','해산물 저녁','알로나 비치 씨푸드 레스토랑']]},
+  {d:'Day 3',s:'바다의 날: 발리카삭 호핑',img:P.dolphin,stay:'🏨 헤난 리조트 알로나 비치 3박째',
+   tl:[['06:00','호텔 로비 픽업','간단한 간식 지참'],['06:30','돌고래 왓칭','팡라오 앞바다 야생 돌고래 떼 관찰'],['08:00','발리카삭 스노클링','바다거북·열대어, 고프로 촬영'],['10:30','버진아일랜드','썰물 시 드러나는 모래톱 산책'],['12:30','점심 후 리조트 복귀','낮잠·휴식'],['18:00','가족 마사지','알로나 비치 대형 마사지숍(아이 키즈 마사지 가능 여부 확인)']]},
+  {d:'Day 4',s:'동굴 탐험 · 리조트 이동',img:P.cave,stay:'🏨 아모리타 리조트 1박째',
+   tl:[['09:00','조식 · 체크아웃','짐은 리조트 차량 또는 택시로 이동'],['10:00','히낙다난 동굴','지하 호수에서 수영 체험'],['11:30','다우이스 성당','바닷가 옆 고풍스러운 성당'],['13:00','점심 · 아모리타 체크인','얼리 체크인 가능 여부 사전 요청'],['16:00','인피니티풀 & 선셋','절벽 위 180° 오션뷰'],['19:00','리조트 디너','오션뷰 레스토랑']]},
+  {d:'Day 5',s:'육지의 날: 보홀 본섬 투어',img:P.hills,stay:'🏨 아모리타 리조트 2박째',
+   tl:[['08:00','프라이빗 차량 픽업','에어컨 밴, 영어 또는 한국어 가이드'],['08:40','바클라욘 성당','필리핀에서 가장 오래된 석조 성당 중 하나'],['09:40','타르시어 보호구역','세계에서 가장 작은 영장류 관찰'],['11:30','로복강 런치크루즈','수상 레스토랑 뷔페 + 라이브 공연'],['13:30','빌라르 인공숲','마호가니 터널 포토 스팟'],['14:30','초콜릿 힐스 + ATV','전망대 계단 오르기, ATV 선택'],['18:30','아바탄강 반딧불이','귀갓길에 반딧불이 투어'],['20:30','리조트 복귀','']]},
+  {d:'Day 6',s:'자유 휴양 · 출국 준비',img:P.pool,stay:'🏨 아모리타 리조트 3박째 (밤 출국 전까지 객실 사용)',
+   tl:[['08:00','선택: 나팔링 스노클링 / 체험 다이빙','또는 리조트 늦잠'],['12:00','점심','보홀 비 팜(Bohol Bee Farm) 유기농 레스토랑 추천'],['14:00','기념품 쇼핑','말린 망고, 피넛 키세스, 수공예품'],['16:00','리조트 수영장 · 스파','마지막 선셋 감상'],['19:00','작별 디너','짐 정리, 샤워'],['22:30','공항 이동','리조트 차량 10~15분']]},
+  {d:'Day 7',s:'귀국',img:P.sunset,stay:'✈️ 기내 1박 후 아침 도착',
+   tl:[['01:45','보홀 출발','제주항공 직항'],['07:10','인천공항 T1 도착','입국 심사, 수하물 수취'],['07:50','6770 공항버스','T1 1층 8B 승차장'],['09:00 전후','KTX 광명역 도착 · 귀가','여행 끝! 사진 정리는 다음 날에']]}
+];
+(function(){
+  var tabs = $('#dayTabs'), panels = $('#dayPanels');
+  DAYS.forEach(function(d, k){
+    var b = document.createElement('button'); b.innerHTML = '<b>' + d.d + '</b>' + d.s; if(k===0) b.className = 'on';
+    b.onclick = function(){ [].forEach.call(tabs.children, function(x){x.classList.remove('on');}); [].forEach.call(panels.children, function(x){x.classList.remove('on');}); b.classList.add('on'); panels.children[k].classList.add('on'); };
+    tabs.appendChild(b);
+    var p = document.createElement('div'); p.className = 'day' + (k===0 ? ' on' : '');
+    p.innerHTML = '<div class="ph"><img loading="lazy" alt="" src="' + IMG(d.img[0], 1100) + '"></div>' +
+      '<div><h3>' + d.d + ' · ' + d.s + '</h3><div class="stay">' + d.stay + '</div><ul class="tl">' +
+      d.tl.map(function(x){ return '<li><div class="t">' + x[0] + '</div><div class="w">' + x[1] + '</div>' + (x[2] ? '<div class="d">' + x[2] + '</div>' : '') + '</li>'; }).join('') + '</ul></div>';
+    guardImg(p.querySelector('img')); panels.appendChild(p);
+  });
+})();
+
+/* ---------- Budget (KRW; [실속, 추천, 프리미엄]) ---------- */
+var BUD = [
+  {cat:'항공 · 국내 이동'},
+  {k:'인천↔보홀 직항 왕복 (4인, 위탁수하물 포함)',n:'성수기 1인 40만 / 55만 / 70만원 가정',v:[1600000,2200000,2800000],local:false},
+  {k:'광명↔인천공항 왕복 (6770 공항버스, 4인)',n:'성인 16,000원 기준, 아동 요금 추정 포함',v:[120000,120000,120000],local:false},
+  {cat:'숙박 6박'},
+  {k:'리조트 6박',n:'실속: 4성급 패밀리 6박 / 추천: 헤난 패밀리룸 3박 + 아모리타 3박 / 프리미엄: 에스카야 빌라 3박 + 아모리타 스위트 3박',v:[1800000,3300000,4350000],local:false},
+  {k:'공항·리조트 간 차량 (3회)',n:'차량 1대 편도 ₱900~1,000',v:[65000,65000,65000],local:true},
+  {cat:'투어 · 액티비티'},
+  {k:'발리카삭 호핑 + 돌고래 + 버진아일랜드',n:'조인 / 단독보트 / 단독보트 + 촬영 패키지',v:[107000,196000,250000],local:false},
+  {k:'보홀 육상투어 + 로복강 런치크루즈',n:'그룹 / 프라이빗 차량 / 프라이빗 + ATV',v:[280000,350000,450000],local:true},
+  {k:'아바탄강 반딧불이 투어',n:'보트+입장료 ₱2,000 + 차량',v:[86000,86000,86000],local:true},
+  {k:'기타 (히낙다난 동굴, 스노클링, 체험 다이빙 등)',n:'입장료·장비 대여 포함',v:[50000,100000,300000],local:true},
+  {cat:'식비 · 기타'},
+  {k:'식비 (조식 포함 숙박 가정, 점심·저녁 6일)',n:'1일 15만 / 22만 / 32만원',v:[900000,1320000,1920000],local:true},
+  {k:'마사지 · 스파',n:'가족 마사지 1~3회',v:[80000,200000,400000],local:true},
+  {k:'여행자 보험 (4인)',n:'태풍·항공 지연 보장 포함 권장',v:[60000,80000,120000],local:false},
+  {k:'쇼핑 · 팁 · 예비비',n:'기념품, 가이드·기사 팁 등',v:[300000,500000,800000],local:true}
+];
+var tier = 1;
+function renderBudget(){
+  var rate = parseFloat($('#rateIn').value) || 21.6, tot = 0, loc = 0;
+  var h = '<tr><th style="width:56%">항목</th><th class="num" style="text-align:right">원화</th><th class="num" style="text-align:right">페소 환산</th></tr>';
+  BUD.forEach(function(r){
+    if(r.cat){ h += '<tr class="cat"><td colspan="3">' + r.cat + '</td></tr>'; return; }
+    var v = r.v[tier]; tot += v; if(r.local) loc += v;
+    h += '<tr><td>' + r.k + '<small>' + r.n + '</small></td><td class="num"><b>' + won(v) + '</b></td><td class="num">₱' + Math.round(v/rate).toLocaleString('ko-KR') + '</td></tr>';
+  });
+  $('#btable').innerHTML = h;
+  $('#totKrw').textContent = man(tot);
+  $('#totPhp').textContent = '약 ₱' + Math.round(tot/rate).toLocaleString('ko-KR') + ' · ' + won(tot);
+  $('#perHead').textContent = man(tot/4);
+  $('#localKrw').textContent = man(loc);
+}
+[].forEach.call(document.querySelectorAll('#tierSeg button'), function(b){
+  b.onclick = function(){ [].forEach.call(document.querySelectorAll('#tierSeg button'), function(x){x.classList.remove('on');}); b.classList.add('on'); tier = +b.dataset.t; renderBudget(); };
+});
+$('#rateIn').addEventListener('input', renderBudget);
+renderBudget();
+
+/* ---------- Sources & credits ---------- */
+var SRC = [
+  ['보홀 팡라오 국제공항 2026 운항 스케줄(2026.8 공지)','https://2gobusandferries.com/bohol-panglao-international-airport-flight-schedule-2026-airlines-routes-frequency/'],
+  ['Directflights: 인천-팡라오 직항','https://www.directflights.com/ICN-TAG'],
+  ['KAYAK: 인천-팡라오 항공 스케줄','https://www.kayak.com.ph/flight-routes/Seoul-Incheon-Intl-ICN/Panglao-BoholPanglao-Intl-TAG'],
+  ['대한민국 정책브리핑: 2026 동계 항공편','https://www.korea.kr/multi/visualNewsView.do?newsId=148974419'],
+  ['주한 필리핀 대사관: eTravel 안내','https://philembassy-seoul.com/announcements-advisories/notice-on-use-of-the-etravel-portal-for-all-nationals-entering-the-philippines'],
+  ['Sherpa: 한국인 필리핀 입국 요건','https://apply.joinsherpa.com/visa/philippines/south-korean-citizens?language=en-GB'],
+  ['FX Exchange Rate: PHP/KRW 환율','https://kr.fxexchangerate.com/php/krw-15000-currency-rates.html'],
+  ['Inquirer: 보홀 관광 회복과 성수기','https://plus.inquirer.net/?p=344924'],
+  ['TTG Asia: 2026 상반기 보홀 관광객 동향','https://www.ttgasia.com/?p=120735'],
+  ['Daily Tribune: 팡라오 공항 수용력 확대','https://tribune.net.ph/2026/09/23/bohol-panglao-airport-boosts-capacity-and-flight-routes-to-support-tourism-surge'],
+  ['보홀 주정부: 해양 야생동물 관광 조례','https://bohol.gov.ph/2026/05/12/bohol-strengthens-marine-wildlife-protection-and-coastal-resource-management-efforts/'],
+  ['보홀 주정부: DOT-7 관광 협의(한국인 방문 동향)','https://bohol.gov.ph/2026/07/20/dot-7-visits-capitol-to-discuss-tourism-development-initiatives/'],
+  ['마이리얼트립: 버진아일랜드 재입도 공지','https://www.myrealtrip.com/offers/34004'],
+  ['Journey Era: 팡라오 럭셔리 리조트 비교','https://www.journeyera.com/luxury-resorts-panglao-bohol/'],
+  ['Trip.com: 팡라오 럭셔리 호텔 순위','https://au.trip.com/toplist/tripbest/panglao-best-scenic-hotels-100200187281'],
+  ['헤난 리조트 공식 예약 안내','https://reservations.henann.com/henann-resort-alona-beach'],
+  ['Cebutrip: South Palms MGallery 소개','https://cebutrip.net/en-us/hotel/view/bohol-hotel'],
+  ['여기어때: BE Grand / Bohol Beach Club 시설 정보','https://www.yeogi.com/overseas-accommodations/199195'],
+  ['와그: 발리카삭 호핑투어 상품','https://www.waug.com/activities/139508'],
+  ['GoPanglao: 반딧불이 투어 요금','https://gopanglao.rezio.shop/product/GPCOUNTRYSIDEPRIVATEE'],
+  ['Jonny Melon: 초콜릿 힐스 2026 가이드','https://www.jonnymelon.com/chocolate-hills-bohol/'],
+  ['Korail: 광명역 도심공항터미널 안내','https://www.korail.com/docs/foreign/city_airport_terminal_guidebook_en.pdf'],
+  ['뉴시스: 광명역 도심공항터미널 재개장','https://mobile.newsis.com/view/NISX20241216_0002998077'],
+  ['인천공항 6770 공항버스 시간표·요금','https://info.koreacharts.com/airportbus/route/6770/contents.html'],
+  ['머니투데이: 인천공항 장기주차 요금','https://www.mt.co.kr/estate/2026/02/08/2026020617192517459'],
+  ['트립스토어: 보홀 직항·수하물 정리','https://www.tripstore.kr/blog/%EB%B3%B4%ED%99%80-%ED%95%AD%EA%B3%B5%EA%B6%8C-%EC%A7%81%ED%95%AD-%ED%8A%B9%EA%B0%80-%EC%98%88%EC%95%BD']
+];
+$('#srcList').innerHTML = SRC.map(function(s){ return '<li><a href="' + s[1] + '" target="_blank" rel="noopener">' + s[0] + '</a></li>'; }).join('');
+var used = {}; Object.keys(P).forEach(function(k){ used[P[k][0]] = P[k][1]; });
+$('#creditList').innerHTML = Object.keys(used).map(function(f){ return '<li><a href="' + PAGE(f) + '" target="_blank" rel="noopener">' + f + '</a> · ' + used[f] + '</li>'; }).join('');
+
+/* ---------- Navigation (Apps Script iframe safe) ---------- */
+[].forEach.call(document.querySelectorAll('[data-go]'), function(el){
+  el.addEventListener('click', function(){ var t = document.getElementById(el.dataset.go); if(t) t.scrollIntoView({behavior:'smooth'}); $('#menu').classList.remove('open'); });
+});
+$('#burger').onclick = function(){ $('#menu').classList.toggle('open'); };
+window.addEventListener('scroll', function(){ $('#nav').classList.toggle('solid', window.scrollY > 60); });
+
+/* ---------- Reveal on scroll ---------- */
+(function(){
+  var els = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){ [].forEach.call(els, function(e){ e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {threshold:.08});
+  [].forEach.call(els, function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
